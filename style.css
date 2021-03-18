@@ -1,9 +1,9 @@
 body {
-    background: #2980b9;
+    background: #d47120;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+    background: -webkit-linear-gradient(to right, #2c3e50, #d18617);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #2980b9);
+    background: linear-gradient(to right, #2c3e50, #dd791b);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 img{
@@ -84,7 +84,7 @@ h2{
     font-size: 14px;
     font-family: Dosis, sans-serif;
     float: left;
-    margin 0;
+    margin: 0px;
     border-top: 1px solid #ccc;
     background: #F9F9F9;
     padding: 8px 12px 8px 8px;
@@ -95,4 +95,54 @@ em{
 #passport {
     width:200px;
     height: 200px;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+.info {
+    font-size: 90%;
+    font-family: 'Dosis' , sans-serif;
+    position: relative;
+    margin-bottom: 2em;
+    text-align: center;
+    background-color: white;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.th, .info td {
+    vertical-align: top;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    padding: 0.2em;
+}
+#footer {
+    background-color: #beadad;
+    height: 200px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#quote {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: 5px;
+    left: 0px;
 }
