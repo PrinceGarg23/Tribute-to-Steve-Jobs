@@ -1,14 +1,14 @@
 body {
-    background: #d47120;
+    background: #a9a9a9;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #d18617);
+    background: -webkit-linear-gradient(to right, #c0c0c0, #a9a9a9);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #dd791b);
+    background: linear-gradient(to right, #c0c0c0, #a9a9a9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 img{
     width: 1000px;
-    height: 600px
+    height: 600px;
 }
 .slide-container{
     width: 1000px;
@@ -120,15 +120,18 @@ table {
 td {
     display: table-cell;
     vertical-align: inherit;
+    background-color: #a9a9a9;
+    border-top: 2px solid #000000;
 }
-.th, .info td {
+}
+.th, .info, td {
     vertical-align: top;
     border: 0;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 2px solid #000000;
     padding: 0.2em;
 }
 #footer {
-    background-color: #beadad;
+    background-color: #a9a9a9;
     height: 200px;
 }
 p {
